@@ -16,16 +16,10 @@ int main()
     }
     int val = n[3] + ceil(float(n[1]) / 2);
     if (n[0] < n[2])
-    {
         val = val + n[2];
-    }
     else if (n[0] == n[2])
-    {
         val = val + n[0];
-    }
     else
-    {
         val = val + ((n[0] + 3 * n[2]) / 4);
-    }
     cout << val;
 }

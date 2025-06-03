@@ -1,5 +1,5 @@
 import java.util.*;
-public class newC1770 {
+public class C_Koxia_and_Number_Theory_new {
 
     static boolean check(int a, int b){
         int c = Math.min(a,b);

@@ -38,4 +38,5 @@ int main(){
     while (t-->0){
         solve();
     }
+    return 0;
 }

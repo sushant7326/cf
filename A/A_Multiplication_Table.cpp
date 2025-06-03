@@ -2,8 +2,9 @@
 #include <math.h>
 using namespace std;
 
-int main(){
-    int n,x;
+int main()
+{
+    int n, x;
     cin >> n >> x;
     // int end = ((n%2==0)?n/2:(n-1)/2);
     // int count = 0;
@@ -18,10 +19,8 @@ int main(){
     // }
 
     int count = 0;
-    for (int i = 1; i <= n; i++){
-        if(x%i==0 && x/i<=n){
+    for (int i = 1; i <= n; i++)
+        if (x % i == 0 && x / i <= n)
             count++;
-        }
-    }
-    cout<<count<<'\n';
+    cout << count << '\n';
 }

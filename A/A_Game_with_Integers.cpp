@@ -18,4 +18,5 @@ int main()
     cin >> t;
     while (t-- > 0)
         solve();
+    return 0;
 }

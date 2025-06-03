@@ -24,4 +24,5 @@ int main(){
         i = (i*2022) % m;
         cout<<i<<endl;
     }
+    return 0;
 }
